@@ -1,0 +1,71 @@
+body{
+   
+    background-repeat: no-repeat; 
+    background-image: url(/connect\ hourse.jpeg);
+}
+.container{
+    /* border: solid 1px; */
+    padding: 12PX;
+    margin: 20px;
+    width: 70px;
+    justify-content: center;
+}
+
+::placeholder { 
+    color: rgb(2, 2, 2);
+    opacity: 1; 
+  }
+.form{
+    width:41.67%;
+    background-size: 300px;
+    width: 700%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px
+        }
+  
+    
+    .form-group
+    {
+        margin-bottom:20px;
+        position:relative
+    }
+        .form-input{
+            padding-top:20px
+        }
+    .form-label{
+        position:absolute;
+        transition:.25s ease;-moz-transition:.25s ease;
+        -webkit-transition:.25s ease;-o-transition:.25s ease;
+        -ms-transition:.25s ease;color:#000000;
+        left:0;top:23px
+    }
+    input{
+        transition:.3s ease;
+        -moz-transition:.3s ease;
+        -webkit-transition:.3s ease;
+        -o-transition:.3s ease;
+        -ms-transition:.3s ease;
+        padding-top:10px;
+        -webkit-appearance:none
+    }
+        input:focus+.form-label,input:valid+.form-label
+        {
+        top:1px;font-size:11px;color:#000000
+    }
+        input,select
+        {
+        box-sizing:border-box;
+        width:100%;
+        display:block;
+        border:none;
+        font-family:Poppins;
+        color:#000000;
+        background:0 0;
+        border-bottom:1px solid #000000;
+        padding:4px 0}input:focus,select:focus{
+        border-bottom:1px solid #000000}input:-webkit-autofill{-webkit-box-shadow:0 0 0 30px transparent inset
+        }
+        input::-webkit-input-placeholder
+        {
+        color:#bebebe    
+        }
